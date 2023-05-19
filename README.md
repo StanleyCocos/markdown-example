@@ -92,7 +92,42 @@ return time.time()
   
 
 ### 五. 分割线
+<details>
+  <summary>效果展示</summary>
+    <pre>
+    <img width="939" alt="image" src="https://github.com/StanleyCocos/markdown-example/assets/22318878/10cd91fc-730b-4041-ad51-d53cdd333ca8">
+    </pre>
+ </details>
+ <details>
+  <summary>代码</summary>
+    <pre>
+      <code>
+***
+---
+      </code>
+     </pre>
+</details>
+
+
+
 ### 六. 超链接
+<details>
+  <summary>效果展示</summary>
+    <pre>
+    <img width="295" alt="image" src="https://github.com/StanleyCocos/markdown-example/assets/22318878/742bd53c-44f5-4bb2-9057-1edd9ae6f692">
+    </pre>
+ </details>
+ <details>
+  <summary>代码</summary>
+    <pre>
+      <code>
+[超链接](https://www.markdownguide.org)
+[引用链接](https://www.markdownguide.org "说明文字")
+[![图片超链接](https://markdown.tw/images/208x128.png "图片说明")](https://www.markdownguide.org)
+      </code>
+     </pre>
+</details>
+
 ### 七. 表格
 ### 八. 列表
 ### 九. 流程图
