@@ -222,6 +222,31 @@ tab长度×(层数-1) < 空白长度 ≤ tab长度×层数
 </details>
   
 
+### 十. 表情符号 [Unicode 列表]([https://www.markdownguide.org](https://apps.timwhitlock.info/emoji/tables/unicode#))
+<details>
+  <summary>代码</summary>
+    <pre>
+      <code>
+语法："&#xcode"; (注意最后的分号 ; 不可少)
+
+其中 code 可以从表情符号 Unicode 列表中查到
+
+例子： 查到了 表情对应的 Unicode 编码为 U+1F600，则与此表情对应的 CODE 为 1F600 (舍弃前面的 U+)。我们只需在 Markdown 文档中输入 &#x1F600; 即可显示为 😀。
+
+&#x1F600;
+
+❤️ ✨⭐ ❗❓❕❔ ✊✌️ ✋✋ ☝️
+
+☀️ ☔ ☁️ ❄️ ⛄ ⚡ ⛅
+
+☎️ ☎️ ⌛ ⏳ ⏰ ⌚ ➿ ✉️ ✉️ ✂️ ✒️ ✏️ ⚽ ⚾️ ⛳ ♠️ ♥️ ♣️ ♦️ ☕
+
+⛪ ⛺ ⛲ ⛵ ⛵ ⚓ ✈️ ⛽ ⚠️ ♨️
+
+1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 0️⃣ #️⃣ ◀️ ⬇️ ▶️ ⬅️ ↙️ ↘️ ➡️ ⬆️ ↖️ ↗️ ⏬ ⏫ ⤵️ ⤴️ ↩️ ↪️ ↔️ ↕️ ⏪ ⏩ ℹ️ ️ ️ ️ ♿ ㊙️ ㊗️ Ⓜ️ ⛔ ✳️ ❇️ ✴️ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ⛎ ❎ ️ ️ ️ ♻️ ©️ ®️ ™️ ❌ ❗ ‼️ ⁉️ ⭕ ✖️ ➕ ➖ ➗ ✔️ ☑️ ➰ 〰️ 〽️ ▪️ ▫️ ◾ ◽ ◼️ ◻️ ⬛ ⬜ ✅ ⚫ ⚪
+      </code>
+     </pre>
+</details>
   
-### 十. [数学公式](https://1024th.github.io/MathJax_Tutorial_CN/#/full_doc/basic)
+### 十一. [数学公式](https://1024th.github.io/MathJax_Tutorial_CN/#/full_doc/basic)
 
