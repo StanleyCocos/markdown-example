@@ -129,7 +129,65 @@ return time.time()
 </details>
 
 ### 七. 表格
+<details>
+  <summary>效果展示</summary>
+    <pre>
+    <img width="318" alt="image" src="https://github.com/StanleyCocos/markdown-example/assets/22318878/60c40df7-a55b-43ad-b68e-f18802968ee6">
+    </pre>
+ </details>
+
+ <details>
+  <summary>代码</summary>
+    <pre>
+      <code>
+表格由3个部分组成
+第一个部分是表格的标题，使用|来作为列的分割
+第二个部分是表示列的对齐方式，有左对齐、居中对齐和居右对齐三种类型，直接看例子吧， --- 表示了默认的左对齐， :--- 表示 左对齐 ， ---: 表示 右对齐 ， :---: 表示居中对齐
+第三个部分就是内容了，表示方式跟标题一样，可以有多行  
+|居左|居中|居右|默认|
+|:------|:------:|------:|------|
+|居左|居中|居右|默认|
+|测试文本|测试文本|测试文本|测试文本|
+      </code>
+     </pre>
+</details>
+
 ### 八. 列表
+<details>
+  <summary>效果展示</summary>
+    <pre>
+    <img width="503" alt="image" src="https://github.com/StanleyCocos/markdown-example/assets/22318878/ba392f57-7a30-4237-9c14-277523d1b07c">
+    </pre>
+ </details>
+<details>
+  <summary>代码</summary>
+    <pre>
+      <code>
+使用 -、+ 和 *+空格 +文字内容 表示无序列表
+可用tab 或者空格 + -、+ 或者 * +文字内容使列表嵌套
+成功嵌套的条件是下一层的-、+ 和 * 的前面的空白长度满足以下条件
+tab长度×(层数-1) < 空白长度 ≤ tab长度×层数
+- 1
+    - 1-2
+        - 1-3-1
++ 第一层
+    * 第二层
+        * 第三层
+
+
++ 再来一个第一层
+
+1. 第一层
+    1. 第一层
+    2. 第二层
+        1. 第一层
+        2. 第二层
+    
+      </code>
+     </pre>
+</details>
+
+
 ### 九. 流程图
 ### 十. 数学公式
 ### 十一. HTML引入
