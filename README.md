@@ -2,6 +2,9 @@
 
 ### markdown是一种轻量级标记语言，具有纯文本格式语法。它由John Gruber 与Aaron Swartz在2004年合作创建。其目标是让人们“使用易于阅读且易于编写的纯文本格式进行编写，可选将其转换为结构上有效的XHTML或HTML”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性 [文档](https://www.markdownguide.org/basic-syntax/)
 
+其实markdown 基本支持html 如果想做比较好看的 直接用html即可 可以设定css markdown了解简单的即可 完全没必要再去琢磨怎么用好、美化  
+
+
 ### 一. 标题
   <details>
   <summary>效果展示</summary>
@@ -189,5 +192,36 @@ tab长度×(层数-1) < 空白长度 ≤ tab长度×层数
 
 
 ### 九. 流程图
-### 十. 数学公式
-### 十一. HTML引入
+  
+  <details>
+  <summary>效果展示</summary>
+    <pre>
+     <img width="717" alt="image" src="https://github.com/StanleyCocos/markdown-example/assets/22318878/711e4a8a-0c51-4592-93ae-8e99cc47c82e">
+    </pre>
+ </details>
+ 
+
+  <details>
+  <summary>代码</summary>
+    <pre>
+      <code>
+我是没搞懂 谁会用这个玩意 去做流程图 
+```mermaid 
+  sequenceDiagram
+  Alice->>John: Hello John, how are you?
+  loop Healthcheck
+  John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```  
+      </code>
+     </pre>
+</details>
+  
+
+  
+### 十. [数学公式](https://1024th.github.io/MathJax_Tutorial_CN/#/full_doc/basic)
+
